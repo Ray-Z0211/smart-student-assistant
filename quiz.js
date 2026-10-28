@@ -1,10 +1,12 @@
-import { icon } from "../icons.js";
-import { pageHeader, escapeHtml, toast } from "../ui.js";
-import * as store from "../store.js";
-import * as quizzes from "../quiz-engine.js";
-import * as notes from "../notes-engine.js";
-import * as chat from "../chat-engine.js";
-import { logQuizDone } from "../activity.js";
+```js
+import { icon } from "./icons.js";
+import { pageHeader, escapeHtml, toast } from "./ui.js";
+import * as store from "./store.js";
+import * as quizzes from "./quiz-engine.js";
+import * as notes from "./notes-engine.js";
+import * as chat from "./chat-engine.js";
+import { logQuizDone } from "./activity.js";
+```
 
 // Status selama halaman terbuka (kuis yang sedang dikerjakan tidak disimpan sampai selesai)
 const ui = { ai: null, busy: false, view: "menu", quiz: null, index: 0, answers: [], result: null, xp: 0 };
